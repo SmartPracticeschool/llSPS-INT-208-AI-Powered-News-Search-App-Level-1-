@@ -1,5 +1,5 @@
 # llSPS-INT-208-AI Powered News Search App using the Watson Discovery Service
-Summary
+# Summary
 The internet is home to enormous amounts of data that is updated every day. Organizations can connect this constant stream of information to gain understanding, plan strategies, and find opportunities. Enriched news data can help any application make dynamic connections across current events faster. An AI powered news app is thus created that helps to access one’s own news of interest has been created by mining web application using JavaScript, Node.js, and the Watson Discovery service. The following exercises take place
 •	The app is hosted on the IBM Cloud
 •	Code is written in Node.js, with the server-side using the Express framework and  a Slack interface is used to query the data
@@ -7,7 +7,7 @@ The internet is home to enormous amounts of data that is updated every day. Orga
 •	The Watson Discovery service is accessed through the Watson Discovery API
 
 
-Description
+# Description
 A news mining web application is built with the Watson Discovery service using the Watson Node.js SDK. The app demonstrates two use cases using Watson Discovery News:
 •	Search: Query for the most relevant new articles about a specific topic or subject. Because the news collection is pre-enriched with natural language processing, it can query not just on keywords or categories but also on concepts, sentiment, and relations to get richer search responses.
 •	Sentiment analysis- The query specifies whether the searched news in positive, negative or neutral. 
@@ -19,7 +19,7 @@ A news mining web application is built with the Watson Discovery service using t
 
 
 
-Flow
+# Flow
  
 1.	The user interacts with the Watson Discovery News Server via the app UI.
 2.	User input is processed and routed to the Watson Discovery News Server.
@@ -28,7 +28,7 @@ Flow
 5.	The Watson Discovery Service responds to Slack search requests.
 
 
-Included components
+# Included components
 •	Watson Discovery: A cognitive search and content analytics engine for applications to identify patterns, trends, and actionable insights.
 •	Github: A web development platform used or version control. It helps to simplify the process of collaborating different projects. It works on files changes in the projects can easily be merged with the master branch of the project.
 Featured technologies
@@ -38,18 +38,18 @@ Featured technologies
 •	Slack: Slack is a cloud-based set of team collaboration tools and services with chat bot integration
 •	Botkit: Framework for creating and managing chat bots
 
-Deployment options
+# Deployment options
 
  
 
 
 
-Troubleshooting
+# Troubleshooting
 If you find an error while deploying to IBM Cloud using the Deploy to Cloud Foundry option
 1.	If the Lite version is used then the memory space must be reduced from 256mb to 128 mb
 2.	If it continues then in the Stage History, click the Redeploy button.
 
-Setting up node-red environment
+# Setting up node-red environment
 1.	Go to ibm cloud website
 2.	Type Node-red in the catalog
 
@@ -68,12 +68,12 @@ Setting up node-red environment
 
 
 
-Sample Output
+# Sample Output
 The user interface of the node red application looks in general like the figure below:
  
 
 
-SLACK INTEGRATION WITH THE NEWS APP
+# SLACK INTEGRATION WITH THE NEWS APP
 The following steps are followed while integrating the slack environment.
 1. Configure Slack
 To integrate a new Slack Bot into your existing Slack team, navigate to https://<my.slack.com>/apps/manage/custom-integrations, where <my.slack.com> is the Slack workspace that needs to be customize.
@@ -108,7 +108,7 @@ user: @helpbot yes
 helpbot: OK searching...
  
 
-Links
+# Links
 1.	https://cloud.ibm.com/login
 2.	https://www.ibm.com/cloud/get-started
 3.	https://developer.ibm.com/tutorials/how-to-create-a-node-red-starter-application/
@@ -118,13 +118,12 @@ Links
 7.	https://developer.ibm.com/articles/introduction-watson-discovery/
 8.	https://cloud.ibm.com/docs/services/discovery?topic=discovery-getting-started
 9.	https://www.youtube.com/watch?v=kwmqJRDbv98&feature=youtu.be
-Learn more
+
+
+# Learn more
 •	Artificial Intelligence Code Patterns: Enjoyed this Code Pattern? Check out our other AI Code Patterns.
 •	AI and Data Code Pattern Playlist: Bookmark our playlist with all of our Code Pattern videos
 •	With Watson: Want to take your Watson app to the next level? Looking to utilize Watson Brand assets? Join the With Watson program to leverage exclusive brand, marketing, and tech resources to amplify and accelerate your Watson embedded commercial solution.
 License
 This code pattern is licensed under the Apache License, Version 2. Separate third-party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the Developer Certificate of Origin, Version 1.1 and the Apache License, Version 2.
 Apache License FAQ
-
-
-
